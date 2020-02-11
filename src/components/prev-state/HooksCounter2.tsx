@@ -1,14 +1,13 @@
 import React, { useState } from 'react'
 
-function HooksCounter() {
+function HooksCounter2() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <h1>Hooks Counter</h1>
       <button onClick={() => setCount(prevState => prevState + 1)}>Count {count} </button>
     </>
   )
 }
 
-export default HooksCounter
+export default HooksCounter2
